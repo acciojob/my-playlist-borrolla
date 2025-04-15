@@ -1,1 +1,51 @@
 /*  your css code here. If applicable */
+/* General Styles */
+body {
+    background-color: rgb(204, 204, 204);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styles */
+.container {
+    margin: 20px auto;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    max-width: 600px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Player Styles */
+.player_one, .player_two {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Centered Headings */
+h1, h2 {
+    text-align: center;
+}
+
+/* Song List */
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
