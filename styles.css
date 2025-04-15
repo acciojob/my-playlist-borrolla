@@ -9,6 +9,7 @@ body {
 
 /* Container Styles */
 .container {
+	border:1px solid black;
     margin: 20px auto;
     padding: 15px;
     background-color: rgb(255, 255, 255);
@@ -34,6 +35,12 @@ h1, h2 {
 ul {
     padding: 0;
 }
+video {
+    width: 100%; /* Adjust to take full container width */
+    max-width: 800px; /* Set a maximum width for larger screens */
+    display: block;
+    margin: 0 auto; /* Center the video */
+}
 
 li {
     list-style-type: none;
@@ -49,3 +56,5 @@ a:hover {
     text-decoration: underline;
     color: #0056b3;
 }
+
+
