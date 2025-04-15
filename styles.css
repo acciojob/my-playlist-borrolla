@@ -18,7 +18,7 @@ body {
 }
 
 /* Player Styles */
-.player_one, .player_two {
+.player_one{
     background-color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 8px;
